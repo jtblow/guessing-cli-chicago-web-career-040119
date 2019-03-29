@@ -4,5 +4,6 @@ def run_guessing_game
   rando = nil 
   until user_input = rando
     puts "Please guess a number"
-    user_input = gets.chomp.strip
+    user_input = gets.chomp
+    i
     
