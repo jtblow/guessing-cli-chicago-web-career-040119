@@ -5,5 +5,6 @@ def run_guessing_game
   until user_input = rando
     puts "Please guess a number"
     user_input = gets.chomp
-    i
+    rando = rand(1..10)
+    if user_input == rando
     
